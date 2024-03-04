@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+.colors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 3rem;
+  border-bottom: 3px dashed #ccc;
+}
+
+.color {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+
+  border: 8px solid #fff;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.color:hover {
+  transform: scale(1.05);
+}
+
+.display {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 5px;
+}
